@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="main">
+            <form name="f">
+                <input type="text" name="tbox" placeholder="0" id="new">  <br>
+                <input type="button" value="1" onclick="f.tbox.value+=1">
+                <input type="button" value="2" onclick="f.tbox.value+=2">
+                <input type="button" value="3" onclick="f.tbox.value+=3">
+                <input type="button" value="+" onclick="add()">
+                <br>
+                <input type="button" value="4" onclick="f.tbox.value+=4">
+                <input type="button" value="5" onclick="f.tbox.value+=5">
+                <input type="button" value="6" onclick="f.tbox.value+=6">
+                <input type="button" value="-" onclick="sub()">
+                <br>
+                <input type="button" value="7" onclick="f.tbox.value+=7">
+                <input type="button" value="8" onclick="f.tbox.value+=8">
+                <input type="button" value="9" onclick="f.tbox.value+=9">
+                <input type="button" value="/" onclick="div()">
+                <br>
+                <input type="button" value="c" onclick="f.tbox.value=''">
+                <input type="button" value="0" onclick="f.tbox.value+=0">
+                <input type="button" value="=" onclick="f.tbox.value=eval(f.tbox.value)">
+                <input type="button" value="x" onclick="mul()">
+                <br>
+
+            </form>
+
+        </div>
+        <script src="script.js">
+            
+        </script>
+
+
+    </body>
+</html>
