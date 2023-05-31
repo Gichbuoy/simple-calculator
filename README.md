@@ -32,3 +32,5 @@ To get a local copy of the calculator application, you can follow these steps:
 ### Contributing
 Contributions are welcome! If you have any suggestions, bug fixes, or new features to propose, please feel free to submit a pull request.
 
+### screenshot
+![Code Running Screenshot](./images/screenshot.png)
